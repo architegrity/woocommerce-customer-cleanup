@@ -9,7 +9,7 @@ Over time, your WooCommerce store might accumulate unwanted customer data, such 
 ## Contents
 
 - [Guide](GUIDE.md): A detailed, step-by-step guide for cleaning up WooCommerce customers.
-- [LICENSE](LICENSE): Licensing information for this guide.
+- [LICENSE](LICENSE.md): Licensing information for this guide.
 
 ## How to Use
 
