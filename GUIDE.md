@@ -21,6 +21,17 @@ When running a WooCommerce store, it's possible to accumulate unwanted or bot-cr
 - Access to your database via phpMyAdmin or a similar tool.
 - A recent backup of your WordPress database.
 
+## Important Note on Table Prefixes
+The SQL queries provided in this guide use `dQ8RX_` as a placeholder for your actual WordPress table prefix. WordPress table prefixes are often set during installation and might differ on your site. You must replace `dQ8RX_` with your actual table prefix in all SQL queries.
+
+### How to Find Your Table Prefix
+1. Open your WordPress installation's `wp-config.php` file.
+2. Look for the line that defines the `$table_prefix` variable.
+3. Use the value of `$table_prefix` in place of `dQ8RX_` in the SQL queries provided.
+
+Example:
+If your table prefix is `wp_`, replace `dQ8RX_users` with `wp_users`.
+
 ## Step 1: Backup Your Database
 Before making any changes, always create a full backup of your WordPress database to ensure you can restore your site if something goes wrong.
 
