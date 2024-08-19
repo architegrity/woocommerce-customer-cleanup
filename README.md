@@ -23,4 +23,4 @@ If you have suggestions or improvements, feel free to submit a pull request or o
 
 ## License
 
-This guide is licensed under the [MIT License](LICENSE).
+This guide is licensed under the [MIT License](LICENSE.md).
